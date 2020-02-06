@@ -1,0 +1,82 @@
+{
+  "_from": "apk-mitm",
+  "_id": "apk-mitm@0.6.2",
+  "_inBundle": false,
+  "_integrity": "sha512-+PxsFqwXl23t8kYuOK49jvc6GPDrL5Z5FG7ll+rX3rv6hiCekRJMzgn/i9LH+wrx3uVKt+GlXC6qNn/IdthNeQ==",
+  "_location": "/apk-mitm",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "apk-mitm",
+    "name": "apk-mitm",
+    "escapedName": "apk-mitm",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/apk-mitm/-/apk-mitm-0.6.2.tgz",
+  "_shasum": "cd832f5cd6a2184b9d96d0b16d9adb107d4ce73e",
+  "_spec": "apk-mitm",
+  "_where": "C:\\Users\\berkin1\\Downloads\\apk-mitm-master",
+  "bin": {
+    "apk-mitm": "bin/apk-mitm"
+  },
+  "bugs": {
+    "url": "https://github.com/shroudedcode/apk-mitm/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@tybys/cross-zip": "^3.0.1",
+    "chalk": "^3.0.0",
+    "cross-zip": "^2.1.6",
+    "execa": "^3.2.0",
+    "globby": "^10.0.1",
+    "listr": "^0.14.3",
+    "mkdirp": "^0.5.1",
+    "replace-string": "^3.0.0",
+    "rxjs": "^6.5.3",
+    "tempy": "^0.3.0",
+    "xml-js": "^1.6.11",
+    "yargs-parser": "^16.1.0"
+  },
+  "deprecated": false,
+  "description": "A CLI application that automatically prepares Android APK files for HTTPS inspection",
+  "devDependencies": {
+    "@types/globby": "^9.1.0",
+    "@types/listr": "^0.14.2",
+    "@types/node": "10.14.20",
+    "@types/xml-js": "^1.0.0",
+    "@types/yargs-parser": "^13.1.0",
+    "typescript": "^3.7.2"
+  },
+  "files": [
+    "bin",
+    "dist",
+    "jar"
+  ],
+  "homepage": "https://github.com/shroudedcode/apk-mitm#readme",
+  "keywords": [
+    "cli",
+    "reverse engineering",
+    "android",
+    "apk",
+    "mitm",
+    "certificate pinning"
+  ],
+  "license": "MIT",
+  "name": "apk-mitm",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shroudedcode/apk-mitm.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc",
+    "watch": "tsc --watch"
+  },
+  "version": "0.6.2"
+}
